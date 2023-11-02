@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Vino.Api", "Project.Vino.Api\Project.Vino.Api.csproj", "{264BE026-369F-4945-8752-8C2D2A495FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Vino.Domain", "Project.Vino.Domain\Project.Vino.Domain.csproj", "{5A62E11D-EEB3-4D82-BB0F-10BF5C2CCD1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{264BE026-369F-4945-8752-8C2D2A495FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264BE026-369F-4945-8752-8C2D2A495FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264BE026-369F-4945-8752-8C2D2A495FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264BE026-369F-4945-8752-8C2D2A495FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A62E11D-EEB3-4D82-BB0F-10BF5C2CCD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A62E11D-EEB3-4D82-BB0F-10BF5C2CCD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A62E11D-EEB3-4D82-BB0F-10BF5C2CCD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A62E11D-EEB3-4D82-BB0F-10BF5C2CCD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
