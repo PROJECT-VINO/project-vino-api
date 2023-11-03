@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Project.Vino.Domain\Project.Vino.Domain.csproj" />
+    <ProjectReference Include="..\Project.Vino.Data\Project.Vino.Data.csproj" />
   </ItemGroup>
 
 </Project>
