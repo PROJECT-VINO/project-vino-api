@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using Project.Vino.Domain.Catalog;
+using Project.Vino.Data;
 
 namespace Jet.Piranha.Api.Conrollers
 {
