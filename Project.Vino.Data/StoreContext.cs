@@ -1,5 +1,6 @@
 ﻿using Project.Vino.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
+using Project.Vino.Domain.Orders;
 
 namespace Project.Vino.Data
 {
@@ -17,5 +18,14 @@ namespace Project.Vino.Data
             base.OnModelCreating(builder);
             DbInitializer.Initialize(builder);
      }
+
+     public DbSet<Order> Orders { get; set; }
+
+     public void UpdateItem(Item item)
+     {
+              Items.Update(item);
+              SaveChanges();
+     }
+     
     }
 }
