@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Vino.Domain", "Proj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Vino.Data", "Project.Vino.Data\Project.Vino.Data.csproj", "{C27B6438-80BE-46BD-9185-29EBBB3E6106}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1ADA10DA-F659-4927-8778-AA4090FA28ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Vino.Domain.Tests", "tests\Project.Vino.Domain.Tests\Project.Vino.Domain.Tests.csproj", "{C3413F77-1808-4467-B65D-CC224755DA61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{C27B6438-80BE-46BD-9185-29EBBB3E6106}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C27B6438-80BE-46BD-9185-29EBBB3E6106}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C27B6438-80BE-46BD-9185-29EBBB3E6106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3413F77-1808-4467-B65D-CC224755DA61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3413F77-1808-4467-B65D-CC224755DA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3413F77-1808-4467-B65D-CC224755DA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3413F77-1808-4467-B65D-CC224755DA61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3413F77-1808-4467-B65D-CC224755DA61} = {1ADA10DA-F659-4927-8778-AA4090FA28ED}
 	EndGlobalSection
 EndGlobal
