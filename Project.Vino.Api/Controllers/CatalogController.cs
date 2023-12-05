@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using Project.Vino.Domain.Catalog;
 using Project.Vino.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Project.Vino.Api.Conrollers
 {
@@ -77,6 +78,7 @@ namespace Project.Vino.Api.Conrollers
         }
 
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult Delete(int id)
         {
             var item = _db.Items.Find(id);
