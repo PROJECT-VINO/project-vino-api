@@ -1,0 +1,10 @@
+###  GET token from Autho0
+curl --request POST \
+  --url https://dev-dq2hmtqic8yw3c6d.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{"client_id":"eMIJ1MO3QuQEsOAXE1JawdFmavuVeBm0","client_secret":"iHopFNbVibwWWO262R-KsrXX-cGIRwYINAmyOcWEDS6ZTqpLYjNuwL5f0eqM49qM","audience":"https://project-vino","grant_type":"client_credentials"}'
+
+### DELETE a Item  to  the Catalog Collection
+curl  --request DELETE \
+  --url https://localhost:5236/catalog/3  \
+  --header 'authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImVFaEw5MWNCWUhxOGR1WDZLVWs1UyJ9.eyJpc3MiOiJodHRwczovL2Rldi1kcTJobXRxaWM4eXczYzZkLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJlTUlKMU1PM1F1UUVzT0FYRTFKYXdkRm1hdnVWZUJtMEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9wcm9qZWN0LXZpbm8iLCJpYXQiOjE3MDE4Nzg5NzQsImV4cCI6MTcwMTk2NTM3NCwiYXpwIjoiZU1JSjFNTzNRdVFFc09BWEUxSmF3ZEZtYXZ1VmVCbTAiLCJzY29wZSI6ImRlbGV0ZTpjYXRhbG9nIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.Jsjd6zGMi1ldQZbbiXQFQgn7c-uafphqe7QB3CS4wbuV7B0xvg8TEbDNXbcED3TTC8kCs1ncLjdeD75px1pEtg7GfTu_qKBiuOnPPzTYeQjM7Pp4KJVfkVEQqeIdpG6RUPr5kxS8bGGKD78JxFK7Q336kb7NMoRNluYN_-PTGDmDeYjp0AW60HvCU3jXw8r9vE0-w4UfalZNElqTAKQ9hbu23L4JirNBa5PON3zRCHwulfTRilveai7YGrAzC2NKXGRj_kdJosZr6wFFVeiNH1AFYiQfNb1ynNHZ5KLknKikp_P5CB4BAxdbyAY5UoWaJwaXnj5sKWB4ptQjgT0SQw' 
