@@ -44,7 +44,8 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
     {
-        builder.WithOrigins("http://localhost:3000")
+        builder.WithOrigins("http://localhost:3000",
+        "https://jolly-sea-0e1972b0f.4.azurestaticapps.net")
         .AllowAnyHeader()
         .AllowAnyMethod();
     });
